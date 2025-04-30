@@ -74,7 +74,7 @@ python -m vaultscan.main --path . --verbose
 
 - Automatically respects `.vaultscanignore` files.
 - Uses `--verbose` flag for clearer logging.
-- Built on [VaultScan Community Edition v1.2](https://github.com/pavangajjala/vaultscan-community)
+- Built on [VaultScan Community Edition v1.2](https://github.com/pavangajjala/vaultscan-community/tree/v1.2)
 
 ---
 
