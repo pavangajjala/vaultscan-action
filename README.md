@@ -85,3 +85,6 @@ Licensed under the [Apache 2.0 License](LICENSE)
 ### Built and maintained by [Pavan Gajjala](https://github.com/pavangajjala)
 
 Part of the **VaultScan** open-source security tool suite.
+
+# Developed by Pavan Gajjala – https://github.com/pavangajjala
+# Licensed under Apache 2.0. Unauthorized removal of attribution is prohibited.
