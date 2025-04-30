@@ -17,8 +17,6 @@ This action integrates VaultScan directly into your CI/CD pipeline to detect sen
 
 ## ⚙️ Setup Instructions
 
-To get started, add the following workflow file to your project:
-
 Create `.github/workflows/scan.yml` and paste:
 
 ```yaml
@@ -72,9 +70,9 @@ python -m vaultscan.main --path . --verbose
 
 ## ⚙️ Advanced
 
-- Automatically respects `.vaultscanignore` files.
+- Respects `.vaultscanignore` file.
 - Uses `--verbose` flag for clearer logging.
-- Built on [VaultScan Community Edition v1.2](https://github.com/pavangajjala/vaultscan-community/tree/v1.2)
+- Powered by [VaultScan Community Edition v1.2](https://github.com/pavangajjala/vaultscan-community/tree/v1.2)
 
 ---
 
@@ -83,5 +81,9 @@ python -m vaultscan.main --path . --verbose
 Licensed under the [Apache 2.0 License](LICENSE)
 
 ---
+## 🛡️ Author & Attribution
 
-**Developed by [Pavan Gajjala](https://github.com/pavangajjala) - Licensed under Apache 2.0. Unauthorized removal of attribution is prohibited.**
+**Developed by [Pavan Gajjala](https://github.com/pavangajjala)**
+Unauthorized removal of attribution is a license violation.
+
+**📣 Report misuse or unauthorized rebranding [GitHub issues](https://github.com/pavangajjala/vaultscan-action/issues)**
