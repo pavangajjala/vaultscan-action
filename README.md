@@ -68,15 +68,20 @@ python -m vaultscan.main --path . --verbose
 ```
 ---
 
-⚙️ Advanced
-- Automatically respects .vaultscanignore files.
-- Uses --verbose flag for clearer logging.
-- Based on VaultScan Community Edition v1.2
+## ⚙️ Advanced
+
+- Automatically respects `.vaultscanignore` files.
+- Uses `--verbose` flag for clearer logging.
+- Built on [VaultScan Community Edition v1.2](https://github.com/pavangajjala/vaultscan-community)
 
 ---
 
-📜 License
-Licensed under Apache 2.0
+## 📜 License
+
+Licensed under the [Apache 2.0 License](LICENSE)
 
 ---
-Built and maintained by **Pavan Gajjala**
+
+### Built and maintained by [Pavan Gajjala](https://github.com/pavangajjala)
+
+Part of the **VaultScan** open-source security tool suite.
