@@ -4,12 +4,18 @@ description: Run VaultScan via Python for secret detection
 runs:
   using: composite
   steps:
-    - name: Install VaultScan from GitHub
+    - name: Clone VaultScan
       run: |
-        pip install git+https://github.com/pavangajjala/vaultscan-community.git
+        git clone https://github.com/pavangajjala/vaultscan-community.git
+      shell: bash
+
+    - name: Install VaultScan dependencies
+      run: |
+        pip install -r vaultscan-community/requirements.txt
       shell: bash
 
     - name: Run VaultScan
       run: |
         python -m vaultscan.main --path . --verbose
+      working-directory: vaultscan-community
       shell: bash
