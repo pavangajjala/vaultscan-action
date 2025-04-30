@@ -16,6 +16,6 @@ runs:
 
     - name: Run VaultScan
       run: |
-        python -m vaultscan.main --path ../ --verbose
+        python -m vaultscan.main --path ${{ github.workspace }} --verbose
       working-directory: vaultscan-community
       shell: bash
