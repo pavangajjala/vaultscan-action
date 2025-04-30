@@ -5,8 +5,8 @@ name: VaultScan GitHub Action (Python)
 description: Run VaultScan community Edition v1.2 to detect secrets and credentials in your repository.
 
 branding:
-  icon:
-  shield color: blue
+  icon: shield
+  color: blue
   
 runs:
   using: composite
