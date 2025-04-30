@@ -1,20 +1,15 @@
-name: 'VaultScan Action'
-description: 'A GitHub Action to run VaultScan and detect secrets in your codebase'
-author: 'Pavan Gajjala'
-inputs:
-  path:
-    description: 'Path to scan (defaults to current directory)'
-    required: false
-    default: '.'
+name: VaultScan GitHub Action (Python)
+description: Run VaultScan via Python for secret detection
+
 runs:
-  using: 'python'
-  image: 'python:3.10-slim'
+  using: composite
   steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-    - name: Install dependencies
+    - name: Install VaultScan dependencies
       run: |
-        pip install rich
-        pip install git+https://github.com/pavangajjala/vaultscan-community.git
+        pip install -r requirements.txt
+      shell: bash
+
     - name: Run VaultScan
-      run: python -m vaultscan.main --path ${{ inputs.path }} --verbose
+      run: |
+        python -m vaultscan.main --path . --verbose
+      shell: bash
