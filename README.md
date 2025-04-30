@@ -1,5 +1,7 @@
 # VaultScan GitHub Action
 
+> Seamlessly integrate secrets detection into your GitHub workflows with one line.
+
 [![Version](https://img.shields.io/badge/VaultScan-v1.2-blue)](https://github.com/pavangajjala/vaultscan-community)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
