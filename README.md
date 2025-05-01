@@ -5,6 +5,8 @@
 [![Version](https://img.shields.io/badge/VaultScan-v1.2-blue)](https://github.com/pavangajjala/vaultscan-community)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
+> ⭐ Star / 👀 Watch / 🍴 Fork this project if you find it useful!
+
 **VaultScan GitHub Action** is a reusable GitHub Action that automatically scans your repository for secrets and credentials using the [VaultScan Community Edition](https://github.com/pavangajjala/vaultscan-community).
 
 ---
@@ -40,8 +42,21 @@ jobs:
       - name: Run VaultScan via GitHub Action
         uses: pavangajjala/vaultscan-action@v1.2
 ```
+---
+
+## 📸 Screenshots
+
+### 🖥️ CLI Output
+![CLI Output](.github/assets/cli-output.png)
+
+### ⚙️ GitHub Action Logs
+![GitHub Action](.github/assets/github-action.png)
+
+### 🛒 GitHub Marketplace Listing
+![Marketplace](.github/assets/marketplace.png)
 
 ---
+
 ## 🧪 What This Does
 - Clones the latest VaultScan
 - Installs its Python dependencies
@@ -85,5 +100,11 @@ Licensed under the [Apache 2.0 License](LICENSE)
 
 **Developed by [Pavan Gajjala](https://github.com/pavangajjala)**
 Unauthorized removal of attribution is a license violation.
+
+---
+
+## 🤝 Community Contributions
+
+This is a community edition. Contributions, suggestions, and improvements are welcome!
 
 **📣 Report misuse or unauthorized rebranding [GitHub issues](https://github.com/pavangajjala/vaultscan-action/issues)**
