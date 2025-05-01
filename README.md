@@ -47,13 +47,13 @@ jobs:
 ## 📸 Screenshots
 
 ### 🖥️ CLI Output
-![CLI Output](.github/assets/cli-output.png)
+![CLI Output](assets/cli-output.png)
 
 ### ⚙️ GitHub Action Logs
-![GitHub Action](.github/assets/github-action.png)
+![GitHub Action](assets/github-action.png)
 
 ### 🛒 GitHub Marketplace Listing
-![Marketplace](.github/assets/marketplace.png)
+![Marketplace](assets/marketplace.png)
 
 ---
 
