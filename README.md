@@ -11,6 +11,21 @@
 
 ---
 
+## 🚀 Coming Soon: VaultScan Pro
+
+VaultScan Pro is the advanced version of VaultScan, designed for security-conscious teams and enterprises.
+
+**🔐 What's coming:**
+- Team-based scan reports
+- GitHub org-wide scanning
+- REST API for dashboards and automation
+- False positive filtering & custom rules
+- Web dashboard (in development)
+
+📬 [**Join the Waitlist Here**](https://docs.google.com/forms/d/e/1FAIpQLSdKnjmm-qyHQoqp6gFu7k0wkNJ1Nt1DIx4BVMYxyWSfWLJWVQ/viewform?usp=header)
+
+---
+
 ## 📌 Purpose
 
 This action integrates VaultScan directly into your CI/CD pipeline to detect sensitive information (like AWS keys, Slack tokens, GitHub tokens, and private keys) in your codebase before it reaches production.
