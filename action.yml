@@ -2,7 +2,11 @@
 # Licensed under Apache 2.0. Unauthorized removal of attribution is prohibited.
 
 name: VaultScan GitHub Action
-description: Run VaultScan community Edition v1.2 to detect secrets and credentials in your repository.
+description: VaultScan is a fast, offline-first secret scanner for DevOps and CI/CD pipelines.
+  Detect secrets before they leak — works locally or in GitHub Actions.
+
+  🔐 Pro version coming soon with team reports, API, dashboards.
+  📬 Join waitlist: https://bit.ly/vaultscan-pro
 
 branding:
   icon: shield
